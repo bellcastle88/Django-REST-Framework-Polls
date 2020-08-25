@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'polls',
+    'rest_framework.authtoken',
 ]
 
 MIDDLEWARE = [
@@ -71,6 +72,12 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'pollsapi.wsgi.application'
 
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+        'rest_framework.authentication.TokenAuthentication',
+        'rest_framework.authentication.SessionAuthentication',
+    )
+}
 
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
