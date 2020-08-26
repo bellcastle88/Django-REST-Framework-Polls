@@ -2,7 +2,7 @@
 
 Making Polls program with Django REST Framework.
 
-Anyone can branch this app and advice me. 
+Anyone can branch this app.
 
 keep updating !
 
