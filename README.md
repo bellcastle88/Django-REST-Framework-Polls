@@ -1,4 +1,4 @@
-# Polls_Django-REST-Framework
+# Django-REST-Framework-Polls
 
 Making Polls program with Django REST Framework.
 
