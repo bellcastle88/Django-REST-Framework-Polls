@@ -6,7 +6,7 @@ Anyone can branch this app.
  
 Keep practicing to get a job !
 
-my blog 
+my blog  
 https://proglish.tistory.com/
 
 refer to https://readthedocs.org/projects/djangoapibook/downloads/pdf/latest/
